@@ -18,7 +18,7 @@ let PlayerMoves = {
     let playerAttack = function() {
       let calcBaseDamage;
       if (player.mana > 0) {
-        calcBaseDamage = player.strength * player.mana / 1000;
+        calcBaseDamage = player.strength * player.mana / 1001;
       } else {
         calcBaseDamage = player.strength * player.agility / 1000;
       }
